@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/JOHNARVINTUM/">
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/IDPIC.jpg" alt="Nyebe" width="130" height="100">
   </a>
   <h3 align="center">Seatwork 3: Footer & Header</h3>
 </div>
@@ -15,7 +15,7 @@
 
 <br />
 
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Seatwork-3)
+![](https://visit-counter.vercel.app/counter.png?page=JOHNARVINTUM/WD-Seatwork-3-main)
 
 ---
 
@@ -55,8 +55,10 @@ Project demonstrate the coding of HTMl and CSS in different kinds of headers and
 - Header Animation
   - Hover Effect
   - Active Effect
-  - Multi Layer Domino Effect
-  - Not Effect
+_  Footer Animations
+  - Hover Effect
+  - Active Effect
+
 
 
 ### Technology
@@ -101,4 +103,7 @@ WD-ProjectName
 
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| GeeksForGeeks| HTML and CSS codes | trykolang.com |
+| W3School     | HTML and CSS guides| trykolang.com |
+| SimilarPng   | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Giphy        | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
