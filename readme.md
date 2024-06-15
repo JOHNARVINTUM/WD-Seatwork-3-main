@@ -100,4 +100,7 @@ WD-ProjectName
 
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| GeeksForGekks | HTML Tutorials and CSS | https://www.geeksforgeeks.org/html-tutorial/?ref=outind                                                      |
+| W3School      | HTML Tutorials and CSS | https://www.w3schools.com/css/default.asp                                                                    |
+| Similar Png   | For background pngs    | https://similarpng.com/whatsapp-icon-design-with-dark-black-brush-on-transparent-background-png/#getdownload |
+| Giphy         | For GIFS               | https://giphy.com/explore/background                                                                         |
