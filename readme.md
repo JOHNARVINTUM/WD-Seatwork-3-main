@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/JOHNARVINTUM/">
-    <img src="./assets/img/IDPIC.jpg" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/IDPIC.jpg" alt="IDPIC.jpg" width="130" height="100">
   </a>
   <h3 align="center">Seatwork 3: Footer & Header</h3>
 </div>
@@ -55,7 +55,7 @@ Project demonstrate the coding of HTMl and CSS in different kinds of headers and
 - Header Animation
   - Hover Effect
   - Active Effect
-_  Footer Animations
+- Footer Animations
   - Hover Effect
   - Active Effect
 
@@ -103,7 +103,7 @@ WD-ProjectName
 
 | Title | Purpose | Link |
 |-|-|-|
-| GeeksForGeeks| HTML and CSS codes | trykolang.com |
-| W3School     | HTML and CSS guides| trykolang.com |
-| SimilarPng   | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Giphy        | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| GeeksForGeeks| HTML and CSS codes | https://www.geeksforgeeks.org/html-tutorial/?ref=outind  |
+| W3School     | HTML and CSS guides| https://www.w3schools.com/howto/howto_css_zoom_hover.asp |
+| SimilarPng   | For png pics       | trykolang.com |
+| Giphy        | For Gif            | trykolang.com |
