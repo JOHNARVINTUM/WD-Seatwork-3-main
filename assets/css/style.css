@@ -1,0 +1,610 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+}
+
+.topnav {
+    margin: 5% auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0 5%;
+}
+
+.logo {
+    background-color: white;
+}
+
+.topnav img {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+}
+
+.nav2 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.nav2 a {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.nav3 {
+    background-color: white;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.nav3 a {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.nav3 img {
+    background-color: white;
+    width: 25px;
+    height: 25px;
+}
+
+.topnav2{
+ margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    padding:0 5%;
+    padding-bottom: 1%;
+}
+
+.p2topnav{
+    padding-bottom: 5px;
+background-color: white;
+}
+
+
+.p2nav2 {
+    background-color: white;
+    display: flex;
+    gap: 25px;
+
+}
+
+.p2nav2 a {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.p2nav2 .p2nav3 {
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    align-items: center;
+    gap: 10px;
+    padding-left:3rem ;
+}
+
+.p2nav3 a {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.p2nav3 img {
+    background-color: white;
+    width: 25px;
+    height: 25px;
+}
+
+.p2logo {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+
+.p2logo img {
+    display: flex;
+    justify-self: center;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+}
+
+.p3logo{
+    padding-bottom: 1px;
+    background-color: rgb(214, 124, 21);
+}
+
+.p4topnav{
+    background-image: url(../img/Rock.jpg);
+    background-position: center;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.p4logo{
+    display: flex;
+    justify-content: center;
+    background-color:transparent;
+}
+
+.p4logo img{
+    display: flex;
+    justify-self: center;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100px;
+    height: 100px;
+
+}
+
+.p4nav2{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.p4nav2 a {
+    display: flex;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.p4nav2 img{
+    background-color: rgba(255, 255, 255, 0);
+    width: 25px;
+    height: 25px;
+}
+
+.p5topnav {
+    margin: 5% auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 0 5%;
+}
+.p5logo {
+    background-color: white;
+}
+
+.p5topnav img {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+}
+
+.p5nav2 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.p5nav2 a {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    font-weight: bolder;
+}
+
+
+
+/* DYNAMIC CODE */
+
+/* first dyamic code */
+
+.D1topnav {
+    margin: 5% auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../img/Zip.gif);
+    padding: 0 5%;
+}
+
+
+.D1topnav img{
+    transition: transform .2s
+}
+
+.D1logo {
+    background-color: transparent;
+}
+
+.D1logo img{
+    background-color: transparent;
+    transition: transform .2s
+}
+
+.D1logo img:active{
+    transform: scale(1.5);
+}
+
+.D1topnav img {
+    background-color: rgba(255, 255, 255, 0);
+    width: 100px;
+    height: 100px;
+}
+
+.D1nav2 {
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.D1nav2 a {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.D1nav2 a:hover {
+    background-color: rgb(116, 111, 111);
+}
+
+.D1nav3 {
+    background-color: rgba(255, 255, 255, 0);
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.D1nav3 a {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.D1nav3 a:hover {
+    background-color: rgb(116, 111, 111);
+}
+
+.D1nav3 img {
+    background-color: rgba(255, 255, 255, 0);
+    width: 25px;
+    height: 25px;
+}
+
+
+/* second dynamic code */
+
+.D2topnav2{
+    margin: 5% auto;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-between;
+       background-image: url(../img/whiteBG.gif);
+       background-size: auto;
+       padding:0 5%;
+       padding-bottom: 1%;
+   }
+
+   .D2p2topnav{
+       padding-bottom: 5px;
+   background-color: transparent;
+   }
+
+
+   .D2p2nav2 {
+       background-color: transparent;
+       display: flex;
+       gap: 25px;
+
+   }
+
+   .D2p2nav2 a {
+       display: flex;
+       font-family: Arial, Helvetica, sans-serif;
+       background-color:transparent;
+       color: black;
+       text-decoration: none;
+       align-items: center;
+       font-weight: bolder;
+       transition: transform .2s
+   }
+
+   .D2p2nav2 a:hover {
+    transform: scale(1.5);
+   }
+
+   .D2p2nav2 a:active {
+   background-color: grey;
+   }
+
+
+   .D2p2nav2 .D2p2nav3 {
+       display: flex;
+       justify-content: flex-end;
+       background-color: transparent;
+       align-items: center;
+       gap: 10px;
+       padding-left:3rem ;
+   }
+
+   .D2p2nav3 a {
+       font-family: Arial, Helvetica, sans-serif;
+       background-color:transparent;
+       color: black;
+       text-decoration: none;
+       font-weight: bolder;
+   }
+
+   .D2p2nav3 img {
+       background-color: transparent;
+       width: 25px;
+       height: 25px;
+   }
+
+   .D2p2logo {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.D2p2logo img {
+    display: flex;
+    justify-self: center;
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    transition: transform .2s
+
+}
+
+.D2p2logo img:hover {
+    transform: scale(1.5);
+}
+
+/* Third Dynamic Code */
+
+.D3topnav{
+    margin: 5% auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../img/Castle.gif);
+    padding:0 5%;
+    padding-bottom: 0%;
+}
+
+.D3nav2{
+    background-color: transparent;
+    transition: transform .2s;
+}
+
+.D3nav2:hover{
+    transform: scale(1.5);
+}
+
+.D3nav2 a{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+.D3nav3 {
+    background-color: transparent;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.D3nav3 a {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+    transition: transform .2s;
+}
+
+.D3nav3 a:hover{
+    transform: scale(1.5);
+}
+
+.D3nav3 img {
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+}
+
+.D3logo {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    padding-bottom: -2rem;
+}
+
+
+.D3logo img {
+    display: flex;
+    justify-self: center;
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    transition: transform .2s
+}
+
+.D3logo img:hover{
+    transform: scale(1.5);
+}
+
+/* Fourth Dynamic Design*/
+
+.D4topnav{
+    background-image: url(../img/bgw.gif);
+    background-position: center;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.D4logo{
+    display: flex;
+    justify-content: center;
+    background-color:transparent;
+}
+
+.D4logo img{
+    display: flex;
+    justify-self: center;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100px;
+    height: 100px;
+    transition: transform .2s
+
+}
+
+
+.D4logo img:hover{
+    transform: scale(1.5);
+}
+
+
+.D4nav2{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.D4nav2 a {
+    display: flex;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    font-weight: bolder;
+    align-items: center;
+    transition: transform .2s
+    
+}
+.D4nav2 a:hover {
+    transform: scale(1.5);
+}
+
+.D4nav2 img{
+    background-color: rgba(255, 255, 255, 0);
+    width: 25px;
+    height: 25px;
+    transition: transform .2s
+}
+.D4nav2 img:hover{
+    transform: scale(1.5);
+}
+
+
+/* Fifth Dynamic design */
+
+.D5topnav {
+    margin: 5% auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/bridge.gif);
+    background-size: cover;
+    padding: 0 5%;
+}
+.D5logo {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.D5topnav img {
+    background-color: rgba(255, 255, 255, 0);
+    width: 100px;
+    height: 100px;
+}
+
+.D5nav2 {
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.D5nav2 a {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    font-weight: bolder;
+    transition: transform .2s
+}
+
+.D5nav2 a:hover{
+transform: scale(1.5);
+color: blue
+}
+
+
+
+
+
+
