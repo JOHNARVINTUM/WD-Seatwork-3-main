@@ -55,7 +55,10 @@ Project demonstrate the coding of HTMl and CSS in different kinds of headers and
 - Header Animation
   - Hover Effect
   - Active Effect
-  - Multi Layer Domino Effect
+- Footer Animation
+  - Hover Effect
+  - Active Effect
+
 
 
 ### Technology
