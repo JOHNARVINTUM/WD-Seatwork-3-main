@@ -105,5 +105,5 @@ WD-ProjectName
 |-|-|-|
 | GeeksForGeeks| HTML and CSS codes | https://www.geeksforgeeks.org/html-tutorial/?ref=outind  |
 | W3School     | HTML and CSS guides| https://www.w3schools.com/howto/howto_css_zoom_hover.asp |
-| SimilarPng   | For png pics       | trykolang.com |
-| Giphy        | For Gif            | trykolang.com |
+| SimilarPng   | For png pics       | https://similarpng.com/                                  |
+| Giphy        | For Gif            | https://giphy.com/                                       |
